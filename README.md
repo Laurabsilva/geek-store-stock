@@ -1,0 +1,1 @@
+O cliente deste repositório é a Geek Store, uma loja de produtos relacionados a animes e franquias. O objetivo do sistema é organizar e controlar o estoque, facilitando o cadastro, a pesquisa, as entradas e saídas de produtos e a identificação de itens com apenas uma unidade.
