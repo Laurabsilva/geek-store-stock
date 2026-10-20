@@ -1,1 +1,28 @@
-O cliente deste repositório é a Geek Store, uma loja de produtos relacionados a animes e franquias. O objetivo do sistema é organizar e controlar o estoque, facilitando o cadastro, a pesquisa, as entradas e saídas de produtos e a identificação de itens com apenas uma unidade.
+## MER - Geek Store
+
+### Entidades e atributos
+
+🎮 FRANQUIA
+- id_franquia (PK)
+- nome
+
+🕹️ PRODUTO
+- id_produto (PK)
+- nome
+- preco_base
+- estoque 
+- id_franquia (FK)
+
+🧑‍💻 USUARIO 
+- id_usuario (PK)
+- nome
+- email
+- senha
+
+### Relacionamentos
+- 1 FRANQUIA possui N PRODUTOS (1:N)
+- 1 PRODUTO pertence a 1 FRANQUIA
+
+### RN's
+- Se estoque = 1 → status = "LAST ITEM" e preço exibido = preco_base × 1,10 (REQ05 e REQ11)
+- Se estoque > 1 → status = "-" e preço a ser exibido = preco_base
