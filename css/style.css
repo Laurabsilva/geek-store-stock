@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0d0714;
+    padding: 8px;
+    color: #efe6ff;
+}
+
+h1 {
+    color: #39ff14;
+    font-family: monospace;
+}
+span {
+    text-transform: uppercase;
+    font-weight: 550;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5px;
+    color: #efe6ff;
+}
+
+header {
+    background-color: #1a0b33 ;
+    border-style: solid;
+    border-color: #39ff14;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nome span {
+    color:#f3fca5;
+    margin-top: 8px;
+}
+
+.nome img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+
+}
+
+.menu {
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    font-weight: bold;
+}
+
+
+.gotologin {
+    background-color: #39ff14;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    color: #000000;
+    font-weight: bold;
+}
+
+#inicio {
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+#inicio h2 {
+    font-family: monospace;
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #b388ff;
+}
+
+#precos h2 {
+    font-family: monospace;
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #b388ff;
+}
+
+
+#inicio p {
+    margin-bottom: 15px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner img {
+    width: 70%;
+    height: 550px;
+    object-fit: cover;
+    border-style: solid;
+    border-color: #7c3aed;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
+
+.texto h2 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    color: #b388ff;
+
+}
+
+.texto p {
+    font-size: 17px;
+}
+
+#produtos {
+    padding-top: 10px;
+    padding: 20px;
+}
+
+#produtos h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #b388ff;
+    font-family: monospace;
+}
+
+#produtos p {
+    text-align: center;
+    font-size: 18px;
+    align-items: center;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 20px;
+
+}
+
+#cards h2 {
+    color: #b388ff;
+    margin-top: 20px;
+}
+
+
+.card {
+    padding: 10px;
+    width: 280px;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: #1a0b33;
+    border-style: outset;
+    border-color: #39ff14;
+}
+
+.card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card h4 {
+    margin-top: 13px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: #1a0b33;
+    color: #efe6ff;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#contato {
+    display: flex;
+    justify-content: center;
+    line-height: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 8px;
+}
+
+#requisitos {
+    padding-left: 48px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+a:hover {
+    color:#39ff14;
+}
+
+a {
+    text-decoration: none;
+    color:#cc80b3;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #3b2470;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #7c3aed;
+}
+
+td {
+    background-color: #1a0b33;
+}
+
+caption {
+    font-family: monospace;
+    font-size: 35px;
+    margin-top: 25px;
+}
+
+#precos {
+    padding: 25px;
+}
+
+
+.detalhes hr {
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #7c3aed;
+    border: none;
+}
+
+.detalhes p {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.detalhes h2 {
+    font-family: monospace;
+    color: #b388ff;
+    font-size: 35px;
+}
+
+.requisitos {
+    margin: 20px;
+}
+
+ul {
+    padding-left: 30px;
+    line-height: 2;
+}
+
